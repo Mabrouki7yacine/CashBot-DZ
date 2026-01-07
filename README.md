@@ -25,9 +25,9 @@ Controls: - **s**: save image - **q**: quit preview
 ## Model Training (MobileNetV2)
 
 Training steps include: - Resize to 224×224\
-- Grayscale → 3‑channel\
-- Normalization\
-- Data augmentation\
+- Grayscale → 3‑channel
+- Normalization
+- Data augmentation
 - Modified MobileNetV2 classifier
 
 Saved model: `Mobile_net_V2.pth`
