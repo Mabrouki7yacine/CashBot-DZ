@@ -10,15 +10,14 @@ inference.
 
 ## Project Structure
 
-    ├── take_pic.py
-    ├── Mobile_net_V2.pth
-    ├── Mobile_net_V2.onnx
-    ├── mobilenet.ipynb
-    └── README.md
+    ├── Data_Acquisition/take_pic.py
+    ├── Training_Model/Mobile_net_V2.pth
+    ├── Training_Model/Mobile_net_V2.onnx
+    ├── Training_Model/mobilenet.ipynb
 
 ## Image Capture
 
-Use `take_pic.py` on Raspberry Pi to capture dataset images.
+Use `Data_Acquisition/take_pic.py` on Raspberry Pi to capture dataset images.
 
 Controls: - **s**: save image - **q**: quit preview
 
