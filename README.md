@@ -14,6 +14,7 @@ inference.
     ├── Training_Model/Mobile_net_V2.pth
     ├── Training_Model/Mobile_net_V2.onnx
     ├── Training_Model/mobilenet.ipynb
+    ├── Inference_on_RPI/classify_bills.py
 
 ## Image Capture
 
@@ -54,6 +55,6 @@ The notebook includes a full ONNX inference example using `onnxruntime`.
     Pillow
 
 ## Deployment
-
-Use PyTorch for Python inference or ONNX Runtime (Python/C++) for
+Use `Inference_on_RPI/classify_bills.py` on Raspberry Pi to run AI model and classify bills.
+We are using PyTorch for Python inference or ONNX Runtime (Python/C++) for
 optimized, embedded deployment.
