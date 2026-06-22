@@ -8,7 +8,7 @@ from datetime import datetime
 from picamera2 import Picamera2
 
 # Create output folder
-output_folder = "/home/yacine/Pictures"
+output_folder = "/home/yacine/BILLS"
 os.makedirs(output_folder, exist_ok=True)
 
 # Start OpenCV thread for display
